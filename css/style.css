@@ -2,4 +2,200 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  border: 0px;
+}
+
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family:'Caslon-Italic';
+  src:url(../fonts/ACaslonPro-Italic.otf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family:'Caslon-Regular';
+  src:url(../fonts/ACaslonPro-Regular.otf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family:'Sporting-Bold';
+  src:url(../fonts/SportingGrotesque-Bold.otf);
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family:'Sporting-Regular';
+  src:url(../fonts/SportingGrotesque-Regular.otf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+body {
+  /* width: 100%; */
+  /* height: auto; */
+}
+
+header{
+  /* width: 100vw; */
+  /* height: auto; */
+  /* margin: 0; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-btn {
+  margin-left: 2.75vw;
+  margin-top: 2.5vh;
+  width: 6.75vw;
+}
+
+.main-nav {
+  display: flex;
+  margin-right: 3vw;
+  margin-top: 2vh;
+}
+
+.main-nav li {
+  margin-left: 2vw;
+  font-family: 'Sporting-Regular';
+  font-size: 1.15vw;
+}
+
+.main-nav a {
+  color: black;
+}
+
+.main-head {
+  font-family: 'Sporting-Bold';
+  font-size: 3vw;
+}
+
+.italic-main {
+  font-family: 'Caslon-Italic';
+}
+
+.first-tile {
+  position: relative;
+  width: 100vw;
+  margin: auto;
+  height: 100vh;
+  /* padding-top: 2vw; */
+  /* background-color: yellow; */
+}
+
+.first-tile-type {
+  position: absolute;
+  /* width: 80vw; */
+  margin-left: 2.75vw;
+  font-family: 'Caslon-Regular';
+  font-size: 4vw;
+  line-height: 4vw;
+  text-align: left;
+  top: 5%;
+  bottom: 0;
+  padding-right: 10%;
+}
+
+.first-tile img {
+  display: absolute;
+  width: 50%;
+  z-index: -1;
+  /* margin: auto; */
+  margin: 0 25%;
+  margin-top: 4.75vw;
+  /* top: 20%; */
+}
+
+.second-tile {
+  position: relative;
+  width: 100vw;
+  margin: auto;
+  margin-top: 8vh;
+  height: 100vh;
+  /* background-color: yellow; */
+}
+
+.second-tile-type {
+  position: absolute;
+  /* width: 80vw; */
+  margin-right: 3vw;
+  font-family: 'Caslon-Regular';
+  font-size: 4vw;
+  line-height: 4vw;
+  text-align: right;
+  top: 0;
+  bottom: 0;
+  padding-left: 10%;
+  margin-top: 16vh;
+}
+
+.second-tile img {
+  display: absolute;
+  height: 110%;
+  z-index: -1;
+  /* margin: auto; */
+}
+
+.third-tile {
+  position: relative;
+  width: 100vw;
+  margin: auto;
+  /* margin-top: 8vh; */
+  height: 100vh;
+  background-color: #F2F1ED;
+  /* background-color: yellow; */
+}
+
+.third-tile-type {
+  position: absolute;
+  /* width: 80vw; */
+  margin-left: 2.75vw;
+  font-family: 'Caslon-Regular';
+  font-size: 4vw;
+  line-height: 4vw;
+  text-align: left;
+  top: 5%;
+  bottom: 0;
+  padding-right: 10%;
+  margin-top: 25vh;
+}
+
+.fourth-tile {
+  position: relative;
+  width: 100vw;
+  margin: auto;
+  /* margin-top: 8vh; */
+  height: 100vh;
+  background-color: #3A46FA;
+  /* background-color: yellow; */
+}
+
+.fourth-tile-type {
+  position: absolute;
+  /* width: 100vw; */
+  margin-right: 3vw;
+  font-family: 'Caslon-Regular';
+  font-size: 4vw;
+  line-height: 4vw;
+  text-align: right;
+  top: 0;
+  bottom: 0;
+  padding-left: 10%;
+  margin-top: 25vh;
+}
+
+footer {
+  margin-left: 2.75vw;
 }
